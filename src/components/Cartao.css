@@ -1,0 +1,58 @@
+/* Cartao.css */
+.cartao-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #00a859, #fbd800);
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .cartao {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 360px;
+    text-align: center;
+    padding: 30px 20px;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .titulo {
+    font-size: 28px;
+    color: #00a859;
+    margin-bottom: 10px;
+  }
+  
+  .descricao {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .link-item {
+    font-size: 18px;
+    color: #00a859;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .link-item:hover {
+    color: #fbd800;
+  }
+  
